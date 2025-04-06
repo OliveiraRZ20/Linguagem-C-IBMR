@@ -8,9 +8,7 @@ int main() {
     int num, num_quadrado;
     float num_raiz;
 
-    printf("|----------------------------------------------------------------|\n");
-    printf("|=- Bem vindo ao programa do numero ao quadrao e raiz quadrada -=|\n");
-    printf("|----------------------------------------------------------------|\n\n");
+    printf("-=- Bem vindo ao programa do numero ao quadrao e raiz quadrada -=-\n");
     printf("Digite um numero: ");
     scanf("%d", &num);
     num_quadrado = num * num;
