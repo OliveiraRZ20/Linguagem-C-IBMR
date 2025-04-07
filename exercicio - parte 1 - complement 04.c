@@ -11,7 +11,7 @@ int main() {
     scanf("%f", &raio);
 
     perimetro = 2 * pi * raio;
-    printf("\nO perimetro da circunferencia com raio %.2f e igual a: %.2f\n", raio,perimetro);
+    printf("\nO perimetro da circunferencia com raio %.2f e igual a: %.2f", raio,perimetro);
 
     return 0;
 }
