@@ -28,5 +28,6 @@ int main() {
     printf("\nMenor salario: R$ %.2f\n", salarios[0]);
     printf("Maior salario: R$ %.2f\n", salarios[2]);
     printf("Media dos salarios: R$ %.2f\n", media);
+    system("pause");
     return 0;
 }

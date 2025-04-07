@@ -18,5 +18,6 @@ int main() {
             printf("Resultado final: %d\n\n", resultado);
         }
     } while (numero >= 0);
+    system("pause");
     return 0;
 }

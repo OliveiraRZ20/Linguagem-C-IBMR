@@ -25,5 +25,6 @@ int main() {
         printf("INVÁLIDO");
     }
     printf("\n");
+    system("pause");
     return 0;
 }

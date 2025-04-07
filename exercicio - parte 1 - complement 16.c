@@ -13,5 +13,6 @@ int main() {
             printf("O numero %d e impar\n", contador);
         }
     }
+    system("pause");
     return 0;
 }

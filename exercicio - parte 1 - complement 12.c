@@ -19,5 +19,6 @@ int main() {
     } else {
         printf("Aluno reprovado com media: %d", resultado);
     }
+    system("pause");
     return 0;
 }

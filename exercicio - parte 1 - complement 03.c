@@ -16,5 +16,6 @@ int main() {
     printf("\nO numero %d tem os seguintes resultados:\n", num);
     printf("%d ao quadrado: %d\n", num,num_quadrado);
     printf("Raiz quadrade de %d: %.2f", num,num_raiz);
+    system("pause");
     return 0;
 }

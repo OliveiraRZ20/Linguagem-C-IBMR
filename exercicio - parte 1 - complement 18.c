@@ -18,5 +18,6 @@ int main() {
         printf("%d\n", resultado);
     }
     printf("Resultado final: %d", resultado);
+    system("pause");
     return 0;
 }

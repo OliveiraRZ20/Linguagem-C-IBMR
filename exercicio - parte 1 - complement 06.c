@@ -13,6 +13,6 @@ int main() {
 
     area = (base * altura) / 2;
     printf("O triangulo retangulo com lados %.2f e %.2f tem uma area de: %.2f ", base,altura,area);
-
+    system("pause");
     return 0;
 }

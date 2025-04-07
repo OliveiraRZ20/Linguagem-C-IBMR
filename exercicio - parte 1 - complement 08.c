@@ -12,6 +12,6 @@ int main() {
     area = 4 * pi * (raio * raio);
     volume = (4.0/3.0) * pi * (raio * raio * raio);
     printf("Uma esfera com raio %.2f tem area de %.2f e volume de %.2f", raio,area,volume);
-
+    system("pause");
     return 0;
 }

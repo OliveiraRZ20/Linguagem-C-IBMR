@@ -13,6 +13,6 @@ int main() {
 
     area = base * altura;
     printf("A area do retangulo com base %.2f e altura %.2f e de: %.2f", base,altura,area);
-
+    system("pause");
     return 0;
 }

@@ -24,6 +24,6 @@ int main() {
     }
 
     printf("Resultado final da soma de %d numeros: %d", contador_maximo, resultado);
-
+    system("pause");
     return 0;
 }

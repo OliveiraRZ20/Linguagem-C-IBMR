@@ -14,5 +14,6 @@ int main() {
         resultado += num;
     }
     printf("O resultado final da soma dos seus numeros deu: %d", resultado);
+    system("pause");
     return 0;
 }

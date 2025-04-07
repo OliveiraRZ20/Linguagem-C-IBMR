@@ -12,5 +12,6 @@ int main() {
     } else {
         printf("O numero %d e impar", numero);
     }
+    system("pause");
     return 0;
 }

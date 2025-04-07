@@ -11,6 +11,6 @@ int main() {
     
     volume = lado * lado * lado;
     printf("O cubo que possui o lado de tamanho %.2f tem volume de: %.2f", lado,volume);
-
+    system("pause");
     return 0;
 }
