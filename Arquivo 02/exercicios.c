@@ -123,10 +123,17 @@ void exercicio05() {
 int main() {
     srand(time(NULL)); // determina a semente de geração de números aleatórios com base no tempo atual
     system("cls"); // Limpa a tela
-    // exercicio01();
-    // exercicio02();
-    // exercicio03();
-    // exercicio04();
-    // exercicio05();
+    int choice;
+    printf("escolha o exercicio (1 a 5): ");
+    scanf("%d", &choice);
+
+    switch (choice) 
+    {
+        case 1: {exercicio01(); break;}
+        case 2: {exercicio02(); break;}
+        case 3: {exercicio03(); break;}
+        case 4: {exercicio04(); break;}
+        case 5: {exercicio05(); break;}
+    }
     return 0;
 }
